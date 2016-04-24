@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -61,9 +61,54 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PokeApi\Ability.cs" />
+    <Compile Include="PokeApi\EvolutionChain.cs" />
+    <Compile Include="PokeApi\Item.cs" />
+    <Compile Include="PokeApi\NamedAPIResource.cs" />
+    <Compile Include="PokeApi\Pokemon.cs" />
+    <Compile Include="PokeApi\PokemonAbility.cs" />
+    <Compile Include="PokeApi\PokemonForm.cs" />
+    <Compile Include="PokeApi\Version.cs" />
+    <Compile Include="PokeApi\VersionGameIndex.cs" />
+    <Compile Include="PokeApi\Generation.cs" />
+    <Compile Include="PokeApi\Name.cs" />
+    <Compile Include="PokeApi\Region.cs" />
+    <Compile Include="PokeApi\Move.cs" />
+    <Compile Include="PokeApi\Language.cs" />
+    <Compile Include="PokeApi\Location.cs" />
+    <Compile Include="PokeApi\LocationArea.cs" />
+    <Compile Include="PokeApi\EncounterMethodRate.cs" />
+    <Compile Include="PokeApi\EncounterMethod.cs" />
+    <Compile Include="PokeApi\EncounterVersionDetails.cs" />
+    <Compile Include="PokeApi\PokemonEncounter.cs" />
+    <Compile Include="PokeApi\VersionEncounterDetail.cs" />
+    <Compile Include="PokeApi\Encounter.cs" />
+    <Compile Include="PokeApi\EncounterConditionValue.cs" />
+    <Compile Include="PokeApi\EncounterCondition.cs" />
+    <Compile Include="PokeApi\VerboseEffect.cs" />
+    <Compile Include="PokeApi\VersionGroupFlavorText.cs" />
+    <Compile Include="PokeApi\VersionGroup.cs" />
+    <Compile Include="PokeApi\MoveLearnMethod.cs" />
+    <Compile Include="PokeApi\Description.cs" />
+    <Compile Include="PokeApi\Pokedex.cs" />
+    <Compile Include="PokeApi\PokemonEntry.cs" />
+    <Compile Include="PokeApi\PokemonSpecies.cs" />
+    <Compile Include="PokeApi\GrowthRate.cs" />
+    <Compile Include="PokeApi\GrowthRateExperienceLevel.cs" />
+    <Compile Include="PokeApi\PokemonSpeciesDexEntry.cs" />
+    <Compile Include="PokeApi\EggGroup.cs" />
+    <Compile Include="PokeApi\PokemonColor.cs" />
+    <Compile Include="PokeApi\PokemonShape.cs" />
+    <Compile Include="PokeApi\AwesomeName.cs" />
+    <Compile Include="PokeApi\APIResource.cs" />
+    <Compile Include="PokeApi\PalParkEncounterArea.cs" />
+    <Compile Include="PokeApi\PalParkArea.cs" />
+    <Compile Include="PokeApi\PalParkEncounterSpecies.cs" />
+    <Compile Include="PokeApi\PokemonSpeciesFlavorText.cs" />
+    <Compile Include="PokeApi\Genus.cs" />
+    <Compile Include="PokeApi\ItemFlingEffect.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
