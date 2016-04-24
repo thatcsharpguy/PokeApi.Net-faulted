@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace PokeApi
 {
 	public class Pokemon
@@ -19,4 +21,16 @@ namespace PokeApi
 		public List<NamedAPIResource<Stat>> Stats { get; set; }
 		public List<PokemonType> Types { get; set; }
 	}
+
+    public class PokemonType
+    {
+        public int Slot { get; set; }
+        public string Type { get; set; }
+    }
+
+    public class LocationAreaEncounter
+    {
+        public APIResource<LocationArea> LocationArea { get; set; }
+        public List<VersionEncounterDetail> VersionDetails { get; set; }
+    }
 }

@@ -59,6 +59,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PokeApi\Berry.cs" />
+    <Compile Include="PokeApi\BerryFirmness.cs" />
+    <Compile Include="PokeApi\BerryFlavor.cs" />
+    <Compile Include="PokeApi\FlavorBerryMap.cs" />
+    <Compile Include="PokeApi\GenerationGameIndex.cs" />
+    <Compile Include="PokeApi\ItemSprites.cs" />
+    <Compile Include="PokeApi\ItemAttribute.cs" />
+    <Compile Include="PokeApi\ItemCategory.cs" />
+    <Compile Include="PokeApi\ItemPocket.cs" />
+    <Compile Include="PokeApi\MoveDamageClass.cs" />
+    <Compile Include="PokeApi\MoveStatAffect.cs" />
+    <Compile Include="PokeApi\MoveStatAffectSets.cs" />
+    <Compile Include="PokeApi\Nature.cs" />
+    <Compile Include="PokeApi\NatureStatAffect.cs" />
+    <Compile Include="PokeApi\NatureStatAffectSets.cs" />
+    <Compile Include="PokeApi\Stat.cs" />
+    <Compile Include="PokeApi\Type.cs" />
+    <Compile Include="PokeApi\TypePokemon.cs" />
+    <Compile Include="PokeApi\TypeRelations.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PokeApi\Ability.cs" />

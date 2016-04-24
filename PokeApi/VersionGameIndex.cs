@@ -1,8 +1,8 @@
 namespace PokeApi
 {
-    public class PokemonAbility 
+    public class VersionGameIndex 
     {
         public int GameIndex {get; set;}
-        public NamedAPIResource<Version> Ability {get; set;}
+        public NamedAPIResource<Version> Version {get; set;}
     }
 }

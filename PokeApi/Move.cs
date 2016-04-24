@@ -1,10 +1,6 @@
-using System.Collections.Generic;
-
 namespace PokeApi
 {
-	public class Move
-	{
-	}
-
-
+    public class Move
+    {
+    }
 }
