@@ -15,6 +15,6 @@ namespace PokeApi
         /// <summary>
         ///     The language this effect is in.
         /// </summary>
-        public NamedAPIResource<Language> Language { get; set; }
+        public NamedApiResource<Language> Language { get; set; }
     }
 }

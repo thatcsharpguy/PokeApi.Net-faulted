@@ -30,8 +30,8 @@ namespace PokeApi
         /// <value>The pokemon entries.</value>
         public List<PokemonEntry> PokemonEntries { get; set; }
 
-        public NamedAPIResource<Region> Region { get; set; }
+        public NamedApiResource<Region> Region { get; set; }
 
-        public NamedAPIResource<VersionGroup> VersionGroups { get; set; }
+        public NamedApiResource<VersionGroup> VersionGroups { get; set; }
     }
 }

@@ -12,6 +12,6 @@ namespace PokeApi
         ///     The language this "scientific" name is in.
         /// </summary>
         /// <value>The language.</value>
-        public NamedAPIResource<Language> Language { get; set; }
+        public NamedApiResource<Language> Language { get; set; }
     }
 }

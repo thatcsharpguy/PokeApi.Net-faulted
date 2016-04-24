@@ -7,6 +7,6 @@ namespace PokeApi
         public int Id { get; set; }
         public string Name { get; set; }
         public List<PokemonSpeciesGender> PokemonSpeciesDetails { get; set; }
-        public List<NamedAPIResource<PokemonSpecies>> RequiredForEvolution { get; set; }
+        public List<NamedApiResource<PokemonSpecies>> RequiredForEvolution { get; set; }
     }
 }

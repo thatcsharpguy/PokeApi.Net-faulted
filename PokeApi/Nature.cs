@@ -5,9 +5,9 @@ namespace PokeApi
         public int Id { get; set; }
         public string Name { get; set; }
 
-        public NamedAPIResource<Stat> DecreasedStat { get; set; }
-        public NamedAPIResource<Stat> IncreasedStat { get; set; }
-        public NamedAPIResource<BerryFlavor> HatesFlavor { get; set; }
-        public NamedAPIResource<BerryFlavor> LikesFlavor { get; set; }
+        public NamedApiResource<Stat> DecreasedStat { get; set; }
+        public NamedApiResource<Stat> IncreasedStat { get; set; }
+        public NamedApiResource<BerryFlavor> HatesFlavor { get; set; }
+        public NamedApiResource<BerryFlavor> LikesFlavor { get; set; }
     }
 }

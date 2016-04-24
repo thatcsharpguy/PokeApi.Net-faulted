@@ -30,6 +30,6 @@ namespace PokeApi
         ///     A list of version groups where moves can be learned through this method.
         /// </summary>
         /// <value>The version group.</value>
-        public List<NamedAPIResource<VersionGroup>> VersionGroup { get; set; }
+        public List<NamedApiResource<VersionGroup>> VersionGroup { get; set; }
     }
 }

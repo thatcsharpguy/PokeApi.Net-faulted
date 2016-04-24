@@ -12,6 +12,6 @@ namespace PokeApi
         ///     A list of all Pokémon species that are members of this egg group.
         /// </summary>
         /// <value>The pokemon species.</value>
-        public List<NamedAPIResource<PokemonSpecies>> PokemonSpecies { get; set; }
+        public List<NamedApiResource<PokemonSpecies>> PokemonSpecies { get; set; }
     }
 }

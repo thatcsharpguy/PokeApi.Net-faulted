@@ -12,6 +12,6 @@ namespace PokeApi
         ///     A list of the Pokémon species that have this color.
         /// </summary>
         /// <value>The pokemon species.</value>
-        public List<NamedAPIResource<PokemonSpecies>> PokemonSpecies { get; set; }
+        public List<NamedApiResource<PokemonSpecies>> PokemonSpecies { get; set; }
     }
 }

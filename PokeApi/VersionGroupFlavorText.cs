@@ -11,8 +11,8 @@ namespace PokeApi
         /// <summary>
         ///     The language this name is in.
         /// </summary>
-        public NamedAPIResource<Language> Language { get; set; }
+        public NamedApiResource<Language> Language { get; set; }
 
-        public NamedAPIResource<VersionGroup> VersionGroup { get; set; }
+        public NamedApiResource<VersionGroup> VersionGroup { get; set; }
     }
 }

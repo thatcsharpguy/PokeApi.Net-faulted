@@ -10,8 +10,8 @@ namespace PokeApi
         public bool IsBattleOnly { get; set; }
         public bool IsMega { get; set; }
         public string FormName { get; set; }
-        public NamedAPIResource<Pokemon> Pokemon { get; set; }
+        public NamedApiResource<Pokemon> Pokemon { get; set; }
         public PokemonFormSprites Sprites { get; set; }
-        public NamedAPIResource<VersionGroup> VersionGroup { get; set; }
+        public NamedApiResource<VersionGroup> VersionGroup { get; set; }
     }
 }

@@ -14,9 +14,9 @@ namespace PokeApi
         public int Smoothness { get; set; }
         public int SoilDryness { get; set; }
 
-        public NamedAPIResource<BerryFirmness> Firmness { get; set; }
+        public NamedApiResource<BerryFirmness> Firmness { get; set; }
         public List<FlavorBerryMap> Flavors { get; set; }
-        public NamedAPIResource<Item> Item { get; set; }
-        public NamedAPIResource<Type> NaturalGiftType { get; set; }
+        public NamedApiResource<Item> Item { get; set; }
+        public NamedApiResource<Type> NaturalGiftType { get; set; }
     }
 }

@@ -27,6 +27,6 @@ namespace PokeApi
         ///     A list of Pokémon species that gain levels at this growth rate.
         /// </summary>
         /// <value>The pokemon species.</value>
-        public List<NamedAPIResource<PokemonSpecies>> PokemonSpecies { get; set; }
+        public List<NamedApiResource<PokemonSpecies>> PokemonSpecies { get; set; }
     }
 }

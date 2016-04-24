@@ -18,13 +18,13 @@ namespace PokeApi
         ///     The generation this version was introduced in.
         /// </summary>
         /// <value>The generation.</value>
-        public List<NamedAPIResource<Generation>> Generation { get; set; }
+        public List<NamedApiResource<Generation>> Generation { get; set; }
 
         /// <summary>
         ///     A list of methods in which Pokémon can learn moves in this version group.
         /// </summary>
         /// <value>The move learn methods.</value>
-        public List<NamedAPIResource<MoveLearnMethod>> MoveLearnMethods { get; set; }
+        public List<NamedApiResource<MoveLearnMethod>> MoveLearnMethods { get; set; }
 
         /// <summary>
         ///     The name of this version group listed in different languages.
@@ -36,6 +36,6 @@ namespace PokeApi
         ///     A list of Pokédexes introduces in this version group.
         /// </summary>
         /// <value>The pokedexes.</value>
-        public List<NamedAPIResource<Pokedex>> Pokedexes { get; set; }
+        public List<NamedApiResource<Pokedex>> Pokedexes { get; set; }
     }
 }

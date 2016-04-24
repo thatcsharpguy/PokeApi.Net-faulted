@@ -57,7 +57,7 @@ namespace PokeApi
         ///     The rate at which this Pokémon species gains levels
         /// </summary>
         /// <value>The growth rate.</value>
-        public NamedAPIResource<GrowthRate> GrowthRate { get; set; }
+        public NamedApiResource<GrowthRate> GrowthRate { get; set; }
 
         /// <summary>
         ///     A list of pokedexes and the indexes reserved within them for this Pokémon species.
@@ -75,19 +75,19 @@ namespace PokeApi
         ///     The color of this Pokémon for gimmicky Pokédex search.
         /// </summary>
         /// <value>The color.</value>
-        public List<NamedAPIResource<PokemonColor>> Color { get; set; }
+        public List<NamedApiResource<PokemonColor>> Color { get; set; }
 
         /// <summary>
         ///     The shape of this Pokémon for gimmicky Pokédex search.
         /// </summary>
         /// <value>The color.</value>
-        public List<NamedAPIResource<PokemonShape>> Shape { get; set; }
+        public List<NamedApiResource<PokemonShape>> Shape { get; set; }
 
         /// <summary>
         ///     The Pokémon species that evolves into this pokemon_species.
         /// </summary>
         /// <value>The evolves from species.</value>
-        public NamedAPIResource<PokemonSpecies> EvolvesFromSpecies { get; set; }
+        public NamedApiResource<PokemonSpecies> EvolvesFromSpecies { get; set; }
 
         /// <summary>
         ///     The evolution chain this Pokémon species is a member of.
@@ -99,7 +99,7 @@ namespace PokeApi
         ///     The generation this Pokémon species was introduced in.
         /// </summary>
         /// <value>The generation.</value>
-        public NamedAPIResource<Generation> Generation { get; set; }
+        public NamedApiResource<Generation> Generation { get; set; }
 
         /// <summary>
         ///     The name of this Pokémon species listed in different languages.

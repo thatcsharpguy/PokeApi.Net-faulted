@@ -17,7 +17,7 @@ namespace PokeApi
         /// <summary>
         ///     A list of condition values that must be in effect for this encounter to occur
         /// </summary>
-        public List<NamedAPIResource<EncounterConditionValue>> ConditionValues { get; set; }
+        public List<NamedApiResource<EncounterConditionValue>> ConditionValues { get; set; }
 
         /// <summary>
         ///     Percent chance that this encounter will occur
@@ -27,6 +27,6 @@ namespace PokeApi
         /// <summary>
         ///     The method by which this encounter happens.
         /// </summary>
-        public NamedAPIResource<EncounterMethod> Method { get; set; }
+        public NamedApiResource<EncounterMethod> Method { get; set; }
     }
 }

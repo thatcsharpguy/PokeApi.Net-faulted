@@ -6,7 +6,7 @@ namespace PokeApi
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public List<NamedAPIResource<ItemCategory>> Categories { get; set; }
+        public List<NamedApiResource<ItemCategory>> Categories { get; set; }
         public List<Name> Names { get; set; }
     }
 }

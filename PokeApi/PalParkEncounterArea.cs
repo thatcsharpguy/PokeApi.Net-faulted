@@ -20,7 +20,7 @@ namespace PokeApi
         ///     The pal park area where this encounter happens.
         /// </summary>
         /// <value>The area.</value>
-        public NamedAPIResource<PalParkArea> Area { get; set; }
+        public NamedApiResource<PalParkArea> Area { get; set; }
 
         public List<PokemonSpeciesFlavorText> FlavorTextEntries { get; set; }
 
@@ -28,6 +28,6 @@ namespace PokeApi
 
         public Genus Genera { get; set; }
 
-        public List<NamedAPIResource<Pokemon>> Varieties { get; set; }
+        public List<NamedApiResource<Pokemon>> Varieties { get; set; }
     }
 }

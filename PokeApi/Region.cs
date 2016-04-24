@@ -4,6 +4,6 @@ namespace PokeApi
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public NamedAPIResource<Location> Locations { get; set; }
+        public NamedApiResource<Location> Locations { get; set; }
     }
 }

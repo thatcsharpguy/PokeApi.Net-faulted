@@ -3,6 +3,6 @@ namespace PokeApi
     public class FlavorBerryMap
     {
         public int Potency { get; set; }
-        public NamedAPIResource<Berry> Berry { get; set; }
+        public NamedApiResource<Berry> Berry { get; set; }
     }
 }
