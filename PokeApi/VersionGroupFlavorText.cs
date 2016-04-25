@@ -1,3 +1,5 @@
+using Newtonsoft.Json;
+
 namespace PokeApi
 {
     public class VersionGroupFlavorText
@@ -13,6 +15,8 @@ namespace PokeApi
         /// </summary>
         public NamedApiResource<Language> Language { get; set; }
 
+
+        [JsonProperty("version_group")]
         public NamedApiResource<VersionGroup> VersionGroup { get; set; }
     }
 }

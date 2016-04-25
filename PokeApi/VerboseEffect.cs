@@ -1,3 +1,5 @@
+using Newtonsoft.Json;
+
 namespace PokeApi
 {
     public class VerboseEffect
@@ -10,6 +12,8 @@ namespace PokeApi
         /// <summary>
         ///     The localized effect text in brief.
         /// </summary>
+
+        [JsonProperty("short_effect")]
         public string ShortEffect { get; set; }
 
         /// <summary>

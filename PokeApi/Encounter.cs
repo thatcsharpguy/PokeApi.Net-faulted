@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Newtonsoft.Json;
 
 namespace PokeApi
 {
@@ -7,16 +8,22 @@ namespace PokeApi
         /// <summary>
         ///     The lowest level the Pokémon could be encountered at
         /// </summary>
+
+        [JsonProperty("min_level")]
         public int MinLevel { get; set; }
 
         /// <summary>
         ///     The highest level the Pokémon could be encountered at
         /// </summary>
+
+        [JsonProperty("max_level")]
         public int MaxLevel { get; set; }
 
         /// <summary>
         ///     A list of condition values that must be in effect for this encounter to occur
         /// </summary>
+
+        [JsonProperty("condition_values")]
         public List<NamedApiResource<EncounterConditionValue>> ConditionValues { get; set; }
 
         /// <summary>

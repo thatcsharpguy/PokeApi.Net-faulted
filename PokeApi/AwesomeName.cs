@@ -1,3 +1,5 @@
+using Newtonsoft.Json;
+
 namespace PokeApi
 {
     public class AwesomeName
@@ -6,6 +8,8 @@ namespace PokeApi
         ///     The localized "scientific" name for an API resource in a specific language.
         /// </summary>
         /// <value>The awesome name1.</value>
+
+        [JsonProperty("awesome_name")]
         public string AwesomeName1 { get; set; }
 
         /// <summary>

@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Newtonsoft.Json;
 
 namespace PokeApi
 {
@@ -12,6 +13,8 @@ namespace PokeApi
         ///     A list of the Pokémon species that have this color.
         /// </summary>
         /// <value>The pokemon species.</value>
+
+        [JsonProperty("pokemon_species")]
         public List<NamedApiResource<PokemonSpecies>> PokemonSpecies { get; set; }
     }
 }

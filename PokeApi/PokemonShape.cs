@@ -23,6 +23,7 @@ namespace PokeApi
         ///     A list of the Pokémon species that have this shape.
         /// </summary>
         /// <value>The pokemon species.</value>
+        ///        [JsonProperty("pokemon_species")]
         public List<NamedApiResource<PokemonSpecies>> PokemonSpecies { get; set; }
     }
 }

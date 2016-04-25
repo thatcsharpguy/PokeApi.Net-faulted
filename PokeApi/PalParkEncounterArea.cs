@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Newtonsoft.Json;
 
 namespace PokeApi
 {
@@ -8,6 +9,8 @@ namespace PokeApi
         ///     The base score given to the player when the referenced Pokémon is caught during a pal park run.
         /// </summary>
         /// <value>The base score.</value>
+
+        [JsonProperty("base_score")]
         public int BaseScore { get; set; }
 
         /// <summary>
@@ -22,8 +25,10 @@ namespace PokeApi
         /// <value>The area.</value>
         public NamedApiResource<PalParkArea> Area { get; set; }
 
+        [JsonProperty("flavor_text_entries")]
         public List<PokemonSpeciesFlavorText> FlavorTextEntries { get; set; }
 
+        [JsonProperty("form_descriptions")]
         public List<Description> FormDescriptions { get; set; }
 
         public Genus Genera { get; set; }
